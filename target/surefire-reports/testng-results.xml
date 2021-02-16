@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-16T00:58:54Z" name="demo" finished-at="2021-02-16T01:00:12Z" duration-ms="78550">
+    <groups>
+    </groups>
+    <test started-at="2021-02-16T00:58:54Z" name="loginPageChrome" finished-at="2021-02-16T00:59:57Z" duration-ms="63707">
+      <class name="com.tests.loginPageTestChrome">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:com.tests.loginPageTestChrome@67e2d983]" started-at="2021-02-16T00:58:54Z" name="setupDriver" finished-at="2021-02-16T00:58:56Z" duration-ms="2314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="registrationPage()[pri:0, instance:com.tests.loginPageTestChrome@67e2d983]" started-at="2021-02-16T00:58:56Z" name="registrationPage" finished-at="2021-02-16T00:59:57Z" duration-ms="61307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.tests.loginPageTestChrome@67e2d983]" started-at="2021-02-16T00:59:57Z" name="quitDriver" finished-at="2021-02-16T00:59:57Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.tests.loginPageTestChrome -->
+    </test> <!-- loginPageChrome -->
+    <test started-at="2021-02-16T00:58:54Z" name="loginPageFirefox" finished-at="2021-02-16T01:00:12Z" duration-ms="78550">
+      <class name="com.tests.loginPageTestFirefox">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:com.tests.loginPageTestFirefox@548a102f]" started-at="2021-02-16T00:58:54Z" name="setupDriver" finished-at="2021-02-16T00:58:59Z" duration-ms="5598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="registrationPage()[pri:0, instance:com.tests.loginPageTestFirefox@548a102f]" started-at="2021-02-16T00:58:59Z" name="registrationPage" finished-at="2021-02-16T01:00:12Z" duration-ms="72332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.tests.loginPageTestFirefox@548a102f]" started-at="2021-02-16T01:00:12Z" name="quitDriver" finished-at="2021-02-16T01:00:12Z" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.tests.loginPageTestFirefox -->
+    </test> <!-- loginPageFirefox -->
+  </suite> <!-- demo -->
+</testng-results>
