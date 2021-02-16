@@ -2,7 +2,7 @@
 
 # Prequisite
 
-1. Docker should be installed on the machine and docker desktop is running on machine.
+1. Docker should be installed on the machine and docker desktop should be running on machine.
 2. Maven should be installed on the machine.
 
 # Steps to run the test.
